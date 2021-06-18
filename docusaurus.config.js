@@ -4,12 +4,12 @@ module.exports = {
   tagline:
     "Ecosystem science, policy, and management informed by the best available data and models",
   url: "https://pecanproject.github.io/web",
-  baseUrl: "/",
+  baseUrl: "/web/",
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "PEcAn", // Usually your GitHub org/user name.
-  projectName: "PEcAn Project", // Usually your repo name.
+  organizationName: "PecanProject", // Usually your GitHub org/user name.
+  projectName: "web", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "PEcAn",

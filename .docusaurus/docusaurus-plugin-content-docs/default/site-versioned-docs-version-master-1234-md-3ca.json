@@ -1,0 +1,22 @@
+{
+  "unversionedId": "1234",
+  "id": "version-master/1234",
+  "isDocsHomePage": false,
+  "title": "Welcome",
+  "description": "**Ecosystem science, policy, and management informed by the best",
+  "source": "@site/versioned_docs/version-master/1234.md",
+  "sourceDirName": ".",
+  "slug": "/1234",
+  "permalink": "/web/docs/1234",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/versioned_docs/version-master/1234.md",
+  "version": "master",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "version-master/tutorialSidebar",
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/web/docs/tutorial-new/translate-your-site"
+  }
+}

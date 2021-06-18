@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-new/tutorial-basics/create-a-page",
+  "id": "version-master/tutorial-new/tutorial-basics/create-a-page",
+  "isDocsHomePage": false,
+  "title": "Create a Page",
+  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "source": "@site/versioned_docs/version-master/tutorial-new/tutorial-basics/create-a-page.md",
+  "sourceDirName": "tutorial-new/tutorial-basics",
+  "slug": "/tutorial-new/tutorial-basics/create-a-page",
+  "permalink": "/web/docs/tutorial-new/tutorial-basics/create-a-page",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/versioned_docs/version-master/tutorial-new/tutorial-basics/create-a-page.md",
+  "version": "master",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "version-master/tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/web/docs/tutorial-new/translate-your-site"
+  },
+  "next": {
+    "title": "Create a Document",
+    "permalink": "/web/docs/tutorial-new/tutorial-basics/create-a-document"
+  }
+}
