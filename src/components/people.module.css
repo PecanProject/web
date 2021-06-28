@@ -1,0 +1,11 @@
+.peopleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 2rem 4rem;
+  max-width: 300px;
+  flex: 1 1 auto;
+}
