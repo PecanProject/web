@@ -41,6 +41,7 @@ module.exports = {
             { to: "/workshops", label: "Workshops", position: "left" },
           ],
         },
+        { to: "/publications", label: "Publications", position: "left" },
         {
           href: "https://github.com/PecanProject",
           position: "right",
