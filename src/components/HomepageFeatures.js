@@ -4,7 +4,7 @@ import styles from "./HomepageFeatures.module.css";
 
 const FeatureList = [
   {
-    title: "Easy to Use",
+    title: "A state-of-the-art ecosystem model",
     Svg: require("../../static/img/nature.svg").default,
     description: (
       <>
@@ -16,22 +16,26 @@ const FeatureList = [
     ),
   },
   {
-    title: "Focus on What Matters",
+    title: "Free And Open Source",
     Svg: require("../../static/img/environment.svg").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex earum
+        corporis, ea molestias doloribus provident nemo necessitatibus eum non.
+        Quam debitis impedit non accusantium a molestias rem necessitatibus,
+        soluta fugit.
       </>
     ),
   },
   {
-    title: "Powered by React",
+    title: "Made using best available models",
     Svg: require("../../static/img/environmental_study.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex earum
+        corporis, ea molestias doloribus provident nemo necessitatibus eum non.
+        Quam debitis impedit non accusantium a molestias rem necessitatibus,
+        soluta fugit.
       </>
     ),
   },
