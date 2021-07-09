@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import contributors from "../../static/utils/contributors";
 import styles from "./people.module.css";
 const PeopleCard = (props) => {
-  console.log(props);
   return (
     <div className={clsx("card-demo", styles.card)}>
       <div className="card">
@@ -40,12 +39,11 @@ const CardList = () => {
   return (
     <div className={styles.peopleContainer}>
       {contributors.map((person, index) => {
-        console.log(person);
         return (
           <PeopleCard
             key={index}
             {...person}
-            img="https://www.glassdoor.com/blog/app/uploads/sites/2/why-are-you-the-best-person-for-this-job-724x450.jpg"
+            img="https://previews.123rf.com/images/stockbroker/stockbroker1710/stockbroker171000524/89639450-portrait-of-a-young-smiling-professional-man-arms-crossed.jpg"
           />
         );
       })}
