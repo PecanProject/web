@@ -53,17 +53,6 @@ module.exports = {
           label: "Download",
           position: "left",
         },
-        // {
-        //   type: "docsVersionDropdown",
-        //   position: "right",
-        //   dropdownActiveClassDisabled: true,
-        //   dropdownItemsAfter: [
-        //     {
-        //       to: "/versions",
-        //       label: "All versions",
-        //     },
-        //   ],
-        // },
       ],
     },
     footer: {
@@ -118,22 +107,20 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/PecanProject/web/edit/main",
+
+          editUrl: "https://github.com/PecanProject/web/edit/main",
           versions: {
             current: {
               label: "Develop",
               path: "docs",
             },
           },
-          onlyIncludeVersions: ["master", "current"], // ex: ["current", "1.0.0", "2.0.0"]
+          onlyIncludeVersions: ["master", "current"],
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/PecanProject/web/edit/main",
+          editUrl: "https://github.com/PecanProject/web/edit/main",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

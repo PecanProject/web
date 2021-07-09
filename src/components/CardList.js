@@ -37,7 +37,6 @@ const PeopleCard = (props) => {
 };
 
 const CardList = () => {
-  //   console.log(contributors);
   return (
     <div className={styles.peopleContainer}>
       {contributors.map((person, index) => {
@@ -46,7 +45,6 @@ const CardList = () => {
           <PeopleCard
             key={index}
             {...person}
-            //   name={person.name}
             img="https://www.glassdoor.com/blog/app/uploads/sites/2/why-are-you-the-best-person-for-this-job-724x450.jpg"
           />
         );
