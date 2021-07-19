@@ -53,7 +53,7 @@ function Feature({ Svg, title, description, index }) {
           <Svg className={styles.featureSvg} />
         </div>
         <div className={styles.cardContainer}>
-          <h1>{title}</h1>
+          <h2>{title}</h2>
           <p>{description}</p>
         </div>
       </div>
@@ -61,7 +61,7 @@ function Feature({ Svg, title, description, index }) {
   return (
     <div className={styles.featureContainer}>
       <div className={styles.cardContainer}>
-        <h1>{title}</h1>
+        <h2>{title}</h2>
         <p>{description}</p>
       </div>
       <div className={styles.featureSvg}>

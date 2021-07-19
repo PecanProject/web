@@ -2,7 +2,7 @@
 
 .featureContainer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   padding: 2rem 0;
   width: 100%;
@@ -36,6 +36,11 @@
   font-size: 2rem;
   color: #25c2a0;
 }
+.quote::after {
+  content: '"';
+  font-size: 2rem;
+  color: #25c2a0;
+}
 .paragraph {
   max-width: 50%;
   margin: 0 1rem;
@@ -44,12 +49,19 @@
   padding: 10px;
 }
 .cardContainer {
-  max-width: 400px;
+  max-width: 450px;
   background-color: var(--ifm-color-emphasis-200);
   border-radius: 10px;
   padding: 2rem;
+  height: max-content;
   /* margin: 1rem 8rem; */
 }
+/* .cardContainer h1 {
+  font-size: larger;
+} */
+/* .cardContainer p {
+  font-size: 1rem;
+} */
 .foot {
   display: flex;
   justify-content: center;
