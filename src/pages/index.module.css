@@ -10,7 +10,9 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-image: url("/static/img/background-hero.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/static/img/background-hero-1.jpg");
+  /* background-image: ; */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */

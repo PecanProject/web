@@ -74,12 +74,8 @@ module.exports = {
               href: "https://join.slack.com/t/pecanproject/shared_invite/enQtMzkyODUyMjQyNTgzLWEzOTM1ZjhmYWUxNzYwYzkxMWVlODAyZWQwYjliYzA0MDA0MjE4YmMyOTFhMjYyMjYzN2FjODE4N2Y4YWFhZmQ",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              href: "https://twitter.com/pecanproject",
             },
           ],
         },
