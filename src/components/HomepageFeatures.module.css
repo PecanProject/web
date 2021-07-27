@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 2rem;
+  padding: 2rem 0;
 }
 .featureSvg {
   height: 300px;
@@ -54,7 +54,6 @@
   border-radius: 10px;
   padding: 2rem;
   height: max-content;
-  margin: 0.25rem;
   /* margin: 1rem 8rem; */
 }
 /* .cardContainer h1 {
@@ -68,14 +67,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-.imageContainer {
-  display: flex;
-  justify-content: space-between;
-}
-.imageContainer .image {
-  width: 4rem;
-  margin: 0.254rem;
 }
 @media (max-width: 900px) {
   .paragraph {
@@ -92,12 +83,4 @@
   /* .cardContainer{
     margin: 1rem 4rem;
   } */
-}
-@media only screen and (max-width: 600px) {
-  .paragraph {
-    max-width: 100%;
-  }
-  .featureContainer{
-    justify-content: center;
-  }
 }
