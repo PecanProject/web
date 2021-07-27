@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[836],{8653:function(e,t,n){n.r(t);var l=n(7294),r=n(6016);t.default=function(){return l.createElement(r.Z,{title:"news"},l.createElement("div",null,l.createElement("h2",{style:{textAlign:"center",margin:"0.5rem"}},"News")))}}}]);
