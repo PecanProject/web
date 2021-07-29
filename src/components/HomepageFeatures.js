@@ -1,10 +1,11 @@
 import React from "react";
-import clsx from "clsx";
 import styles from "./HomepageFeatures.module.css";
 import nsf from "../../static/img/nsf.png";
 import nasa from "../../static/img/nasa-logo.png";
 import dep from "../../static/img/dep-energysvg.png";
 import energy from "../../static/img/energy-bio.png";
+import useWindowDimensions  from "./useWindowDimensions";
+
 const FeatureList = [
   {
     title: "A state-of-the-art ecosystem model",
@@ -44,7 +45,20 @@ const FeatureList = [
   },
 ];
 
-function Feature({ Svg, title, description, index }) {
+function Feature({ Svg, title, description, index,width }) {
+  if (width < 1000)
+    return (
+      <div className={styles.featureContainer}>
+        <div className={styles.featureSvg}>
+          {" "}
+          <Svg className={styles.featureSvg} />
+        </div>
+        <div className={styles.cardContainer}>
+          <h2>{title}</h2>
+          <p>{description}</p>
+        </div>
+      </div>
+    );
   if (index % 2 == 0)
     return (
       <div className={styles.featureContainer}>
@@ -73,6 +87,7 @@ function Feature({ Svg, title, description, index }) {
 }
 
 export default function HomepageFeatures() {
+  const { width } = useWindowDimensions();
   return (
     <div>
       <div className={styles.headContainer}>
@@ -90,25 +105,18 @@ export default function HomepageFeatures() {
         <div className="container">
           <div className="row">
             {FeatureList.map((props, idx) => (
-              <Feature key={idx} index={idx} {...props} />
+              <Feature key={idx} index={idx} {...props} width={width}/>
             ))}
           </div>
         </div>
       </section>
       <div className={styles.foot}>
         <h1>Acknowledgements</h1>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            margin: "2.5vh 5vw",
-          }}
-        >
-          <img style={{ width: "5vw", margin: 10 }} src={nsf} />
-          <img style={{ width: "6vw" }} src={nasa} />
-          <img style={{ width: "5vw", margin: 10 }} src={dep} />
-          <img style={{ width: "5vw", margin: 10 }} src={energy} />
+        <div className={styles.imageContainer}>
+          <img src={nsf} className={styles.image} />
+          <img src={nasa} className={styles.image} />
+          <img src={dep} className={styles.image} />
+          <img src={energy} className={styles.image} />
         </div>
       </div>
     </div>

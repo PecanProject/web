@@ -22,11 +22,10 @@ module.exports = {
           label: "Documentation",
           position: "left",
           items: [
-            { to: "/docs/1234", label: "Master", position: "left" },
+            { to: "/docs/1234", label: "Master" },
             {
               to: "/docs/docs/welcome",
               label: "Develop",
-              position: "left",
             },
           ],
         },
@@ -35,10 +34,10 @@ module.exports = {
           label: "About",
           position: "left",
           items: [
-            { to: "/about", label: "About", position: "left" },
-            { to: "/people", label: "People", position: "left" },
-            { to: "/news", label: "News", position: "left" },
-            { to: "/workshops", label: "Workshops", position: "left" },
+            { to: "/about", label: "About" },
+            { to: "/people", label: "People" },
+            { to: "/news", label: "News" },
+            { to: "/workshops", label: "Workshops" },
           ],
         },
         { to: "/publications", label: "Publications", position: "left" },
@@ -74,12 +73,8 @@ module.exports = {
               href: "https://join.slack.com/t/pecanproject/shared_invite/enQtMzkyODUyMjQyNTgzLWEzOTM1ZjhmYWUxNzYwYzkxMWVlODAyZWQwYjliYzA0MDA0MjE4YmMyOTFhMjYyMjYzN2FjODE4N2Y4YWFhZmQ",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              href: "https://twitter.com/pecanproject",
             },
           ],
         },
