@@ -1,10 +1,11 @@
-name: deploy
+name: build
 on:
-  push:
+  pull_request:
     branches: [main]
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
+    name: Build Test
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
@@ -13,9 +14,3 @@ jobs:
         run: |
           npm install
           npm run build
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.4
-        with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: build # The folder the action should deploy.
