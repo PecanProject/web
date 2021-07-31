@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./HomepageFeatures.module.css";
 import nsf from "../../static/img/nsf.png";
 import nasa from "../../static/img/nasa-logo.png";
 import dep from "../../static/img/dep-energysvg.png";
 import energy from "../../static/img/energy-bio.png";
-import useWindowDimensions  from "./useWindowDimensions";
+
 
 const FeatureList = [
   {
@@ -45,7 +45,7 @@ const FeatureList = [
   },
 ];
 
-function Feature({ Svg, title, description, index,width }) {
+function Feature({ Svg, title, description, index, width }) {
   if (width < 1000)
     return (
       <div className={styles.featureContainer}>
@@ -87,9 +87,19 @@ function Feature({ Svg, title, description, index,width }) {
 }
 
 export default function HomepageFeatures() {
-  const { width } = useWindowDimensions();
+  const [width, setWidth] = useState(undefined);
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      function handleResize() {
+        setWidth(window.innerWidth);
+      }
+      window.addEventListener("resize", handleResize);
+      handleResize();
+      return () => window.removeEventListener("resize", handleResize);
+    }
+  }, []);
   return (
-    <div>
+    <div style={{ padding: "4rem 0" }}>
       <div className={styles.headContainer}>
         <h1>Our Mission</h1>
         <div className={styles.paragraph}>
@@ -105,7 +115,7 @@ export default function HomepageFeatures() {
         <div className="container">
           <div className="row">
             {FeatureList.map((props, idx) => (
-              <Feature key={idx} index={idx} {...props} width={width}/>
+              <Feature key={idx} index={idx} {...props} width={width} />
             ))}
           </div>
         </div>
