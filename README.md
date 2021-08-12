@@ -65,7 +65,7 @@ This command generates static content into the `build` directory and can be serv
 
 This section will help to add or modify Website's content. 
 
-###Feature Cards
+### Feature Cards
 
 Feature Cards are cards present at the website homepage whose main purpose is to highlight the key features of the PEcAn Project.
 
