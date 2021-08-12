@@ -23,7 +23,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
- 
+
   /* max-width: "10px"; */
 }
 .quote {
@@ -33,12 +33,11 @@
 }
 .quote::before {
   content: '"';
-  font-size: 2rem;
+
   color: #25c2a0;
 }
 .quote::after {
   content: '"';
-  font-size: 2rem;
   color: #25c2a0;
 }
 .paragraph {
@@ -68,14 +67,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 .imageContainer {
   display: flex;
   justify-content: space-between;
 }
 .imageContainer .image {
-  width: 4rem;
+  width: 5rem;
+  height: 5rem;
   margin: 0.254rem;
 }
 @media (max-width: 900px) {
@@ -98,7 +97,7 @@
   .paragraph {
     max-width: 100%;
   }
-  .featureContainer{
+  .featureContainer {
     justify-content: center;
   }
 }

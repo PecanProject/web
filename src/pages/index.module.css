@@ -6,7 +6,7 @@
  */
 
 .heroBanner {
-  padding: 15vh 0;
+  padding: 16vh 0 12vh 0;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -16,7 +16,6 @@
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-  height: 60vh;
 }
 .aboutContainer {
   display: flex;
@@ -39,4 +38,10 @@ html[data-theme="light"] .heroBanner {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 400px) {
+  .heroBanner {
+    padding: 2rem 0;
+  }
 }
