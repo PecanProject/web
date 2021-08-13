@@ -36,8 +36,8 @@ This section will help one to setup the project for local development.
 
 ### Prerequisites
 
-This project has been built using [Docusaurus 2](https://docusaurus.io/), so make sure that your machine has Node version >=12.13.0, you can check this using `node -v`. [To install node](https://nodejs.org/en/download/)
-Make sure yarn is installed. [to install yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)
+This project has been built using [Docusaurus 2](https://docusaurus.io/), so make sure that your machine has Node version >=12.13.0, you can check this using `node -v`. [Install node](https://nodejs.org/en/download/).
+Make sure yarn is installed. [Install yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)
 
 ### Installation
 
