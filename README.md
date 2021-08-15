@@ -115,9 +115,9 @@ The `title`, `author` and `tags` are important for giving the blog a meaning and
 
 This section contains screenshots of website's homepage in light and dark theme.
 
-[LightTheme](screenshots/light.png)
+![LightTheme](screenshots/light.png)
 
-[DarkTheme](screenshots/dark.png)
+![DarkTheme](screenshots/dark.png)
 
 ## Contributing 
 
