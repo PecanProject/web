@@ -28,7 +28,7 @@ as part of [GSoC '21](https://summerofcode.withgoogle.com/).
     <li><a href="#screenshots">Screenshots</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li>
-      <a href="#adding-content">Next Steps</a>
+      <a href="#next-steps">Next Steps</a>
       <ul>
         <li><a href="#optimising-documentation">Optimising documentation</a></li>
         <li><a href="#adding-tutorials">Adding tutorials section</a></li>
