@@ -119,12 +119,24 @@ This section contains screenshots of website's homepage in light and dark theme.
 
 ![DarkTheme](screenshots/dark.png)
 
-## Contributing 
+## Contributing
 
+This is an open source project and contributions are what make an open source community.
 Everyone is welcome to contribute to this project. The rules are simple:
+
 - Be polite, be patient.
-- Be specific about your doubts, make sure you read this documentation carefully. 
+- Be specific about your doubts, make sure you read this documentation carefully.
+
+First time contributors are welcome. Contributions can be very simple, make sure to check out beginner friendly issues, if present.
 
 ## Next Steps
 
-This section contains future plans for the website. New contributors can use this section as a reference for planning their contributions. 
+This section contains future plans for the website. New contributors can use this section as a reference for planning their contributions.
+
+### Optimising Documentation
+
+At present the PEcAn's documentation is being served from (https://pecanproject.github.io/pecan-documentation/master/) using an iframe. While this saves a lot of overhead in converting Rmd files in (https://github.com/PecanProject/pecan/tree/develop/book_source) to md files so that docusaurus could render them, it also increases the loading time for documentation, it also looks less consistent.
+In future, it is suggested to find an optimised way to convert rmd files to md and integrate them via docusaurus's native documentation parser.
+### Adding tutorials section
+
+The tutorials section from old site need to be migrated into the new site. One can find tutorials here (https://github.com/PecanProject/pecan/tree/develop/documentation/tutorials).
