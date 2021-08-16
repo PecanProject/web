@@ -112,8 +112,15 @@ It contains an array called `contributors` which contains JavaScript objects whi
 
 ![Contributors.js](screenshots/contributors.png)
 
-In order to add a contributor, copy any object enclosed by `{}` and paste after the last object. Make sure two objects are separated by a `,`. Now one can easily edit information in the pasted object.
-One could add information accordingly in the different fields. The information would be automatically updated after successful push.
+To add a contributor:
+1. Copy an existing user's information and paste as a new object in the appropriate order. 
+2. Make sure two objects are separated by a `,`. 
+3. Edit information in the pasted object.
+4. Add an image to `static/img/people`
+5. Add link to image
+6. Build site and check that the new contributor record appears where expected
+
+The new contributor and / or any changes will appear on the website automatically after changes are successfully merged into the main branch.
 
 ### Blog
 
