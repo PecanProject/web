@@ -82,7 +82,7 @@ This command generates static content into the `build` directory and can be serv
 
 This describes how to add or modify the Website's content.
 
-### Feature Cards
+###  Add or Edit Feature Cards
 
 Feature Cards on the website homepage highlight the key features of the PEcAn Project.
 
