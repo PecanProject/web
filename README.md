@@ -122,7 +122,7 @@ To add a contributor:
 
 The new contributor and / or any changes will appear on the website automatically after changes are successfully merged into the main branch.
 
-### Blog
+### Add or Edit a Blog Post
 
 A link to blog posts can be found in the navigation menue at the top of the website. 
 The Docusaurus blog feature is described in detail in the [Docusaurus documentation](https://docusaurus.io/docs/blog). 
