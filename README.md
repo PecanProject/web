@@ -161,7 +161,6 @@ This is an open source project and contributions are what make an open source co
 Everyone is welcome to contribute to this project. 
 All involved are expected to follow the [PEcAn code of conduct](https://pecanproject.github.io/pecan-documentation/master/contributor-covenant-code-of-conduct.html) and contribute to a positive and inclusive environment.
 
-- Be polite, be patient.
 
 First time contributors are welcome. Contributions can be very simple, make sure to check out beginner friendly issues, if present.
 
