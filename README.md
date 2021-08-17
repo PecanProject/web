@@ -158,7 +158,8 @@ This section contains screenshots of website's homepage in light and dark theme.
 ## Contributing
 
 This is an open source project and contributions are what make an open source community.
-Everyone is welcome to contribute to this project. The rules are simple:
+Everyone is welcome to contribute to this project. 
+All involved are expected to follow the [PEcAn code of conduct](https://pecanproject.github.io/pecan-documentation/master/contributor-covenant-code-of-conduct.html) and contribute to a positive and inclusive environment.
 
 - Be polite, be patient.
 - Be specific about your doubts, make sure you read this documentation carefully.
