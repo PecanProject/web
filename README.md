@@ -101,7 +101,7 @@ You can edit or remove feature cards and the changes will be reflected after the
 If you are adding or editing an image file, the image file must is present inside `static/img` directory, otherwise the compiler would return an error.
 You should use SVG images when available.
 
-### PEcAn People
+###  Add or Edit a Person (Contributors) 
 
 The people page contains details of the PEcAn team. The image here is a representation of how the page should look like with placeholder values.
 
