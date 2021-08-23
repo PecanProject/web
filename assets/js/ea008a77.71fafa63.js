@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[891],{5509:function(s){s.exports=JSON.parse('{"allTagsPath":"/web/blog/tags","slug":"gsoc-21","name":"gsoc21","count":1,"permalink":"/web/blog/tags/gsoc-21"}')}}]);
