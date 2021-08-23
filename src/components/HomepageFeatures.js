@@ -4,8 +4,6 @@ import nsf from "../../static/img/nsf.png";
 import nasa from "../../static/img/nasa-logo.png";
 import dep from "../../static/img/dep-energysvg.png";
 import energy from "../../static/img/energy-bio.png";
-
-
 const FeatureList = [
   {
     title: "A state-of-the-art ecosystem model",
@@ -110,7 +108,7 @@ export default function HomepageFeatures() {
           </p>
         </div>
       </div>
-      <h1 style={{ textAlign: "center" }}>Key Features</h1>
+
       <section className={styles.features}>
         <div className="container">
           <div className="row">

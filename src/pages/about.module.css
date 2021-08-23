@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 4rem 4rem;
+  padding: 2rem 8rem;
 }
 .cardContainer {
   display: flex;

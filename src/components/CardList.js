@@ -18,10 +18,22 @@ const PeopleCard = (props) => {
         <div className="card__image">
           <img src={props.img} alt="Image alt text" title="Logo Title Text 1" />
         </div>
-        <div className="card__footer">
+        <div
+          className="card__footer"
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
+        >
           <small className="avatar__subtitle">{props.education}</small>
           <Link
             to="#"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
             onClick={(e) => {
               window.location = `mailto:${props.email}`;
               e.preventDefault();
@@ -39,13 +51,7 @@ const CardList = () => {
   return (
     <div className={styles.peopleContainer}>
       {contributors.map((person, index) => {
-        return (
-          <PeopleCard
-            key={index}
-            {...person}
-            img="https://previews.123rf.com/images/stockbroker/stockbroker1710/stockbroker171000524/89639450-portrait-of-a-young-smiling-professional-man-arms-crossed.jpg"
-          />
-        );
+        return <PeopleCard key={index} {...person} />;
       })}
     </div>
   );

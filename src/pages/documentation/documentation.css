@@ -1,0 +1,6 @@
+.documentation .footer {
+  display: none !important;
+}
+.documentation {
+  overflow-y: hidden !important;
+}

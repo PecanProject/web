@@ -22,9 +22,9 @@ module.exports = {
           label: "Documentation",
           position: "left",
           items: [
-            { to: "/docs/1234", label: "Master" },
+            { to: "/documentation/master", label: "Master" },
             {
-              to: "/docs/docs/welcome",
+              to: "/documentation/develop",
               label: "Develop",
             },
           ],
@@ -61,7 +61,7 @@ module.exports = {
           items: [
             {
               label: "Tutorial",
-              to: "/docs/1234",
+              to: "/documentation/master",
             },
           ],
         },
@@ -100,18 +100,7 @@ module.exports = {
     [
       "@docusaurus/preset-classic",
       {
-        docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-
-          editUrl: "https://github.com/PecanProject/web/edit/main",
-          versions: {
-            current: {
-              label: "Develop",
-              path: "docs",
-            },
-          },
-          onlyIncludeVersions: ["master", "current"],
-        },
+        docs: false,
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
