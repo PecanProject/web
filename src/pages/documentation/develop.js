@@ -14,7 +14,7 @@ function Develop() {
           style={{ border: "none" }}
           width="100%"
           height="100%"
-          allowFullScreen
+         
           id="iFrame1"
           // sandbox=""
         >
