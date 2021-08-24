@@ -15,7 +15,7 @@ function Master() {
           width="100%"
           height="100%"
           allowFullScreen
-          id="iFrame1"
+          id="iFrame2"
           // sandbox=""
         >
           <p>
