@@ -5,7 +5,7 @@ import Foot from "@docusaurus/Head";
 function Develop() {
   return (
     <>
-      <Layout title="Develop" style={{ height: "100%" }}>
+      <Layout title="Develop" >
         <Foot>
           <body className="documentation"></body>
         </Foot>
