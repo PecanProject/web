@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://pecanproject.github.io/web/blog</id>
+    <id>https://pecanproject.github.io/blog</id>
     <title>PEcAn Project Blog</title>
     <updated>2021-08-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://pecanproject.github.io/web/blog"/>
+    <link rel="alternate" href="https://pecanproject.github.io/blog"/>
     <subtitle>PEcAn Project Blog</subtitle>
-    <icon>https://pecanproject.github.io/web/img/favicon.ico</icon>
+    <icon>https://pecanproject.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[GSoC '21 Report- Webpage Updates]]></title>
         <id>eshan-gsoc-2021-report</id>

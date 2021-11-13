@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>PEcAn Project Blog</title>
-        <link>https://pecanproject.github.io/web/blog</link>
+        <link>https://pecanproject.github.io/blog</link>
         <description>PEcAn Project Blog</description>
         <lastBuildDate>Mon, 23 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
