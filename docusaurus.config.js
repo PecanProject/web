@@ -94,7 +94,8 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} PEcAn Project.`,
     },
-    hideableSidebar: true,
+
+    docs: { sidebar: { hideable: true } },
   },
   presets: [
     [
