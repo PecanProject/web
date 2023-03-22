@@ -1,11 +1,16 @@
 .peopleContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 .card {
-  margin: 2rem 4rem;
-  max-width: 300px;
-  flex: 1 1 auto;
+	margin: 2rem 4rem;
+	border-radius: var(--ifm-card-border-radius);
+	max-width: 300px;
+	flex: 1 1 auto;
+}
+.card:hover {
+	transform: scale(1.05);
+	transition: all 0.3s ease-in-out;
 }
