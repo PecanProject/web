@@ -83,7 +83,7 @@ module.exports = {
           items: [
             {
               label: "Google",
-              to: "/google",
+              to: "https://www.google.com/",
             },
             {
               label: "GitHub",
