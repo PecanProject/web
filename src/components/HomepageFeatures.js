@@ -4,6 +4,7 @@ import nsf from "../../static/img/nsf.png";
 import nasa from "../../static/img/nasa-logo.png";
 import dep from "../../static/img/dep-energysvg.png";
 import energy from "../../static/img/energy-bio.png";
+import { Timeline } from "react-twitter-widgets";
 const FeatureList = [
   {
     title: "A state-of-the-art ecosystem model",
@@ -126,6 +127,18 @@ export default function HomepageFeatures() {
           <img src={dep} className={styles.image} />
           <img src={energy} className={styles.image} />
         </div>
+      <div className={styles.timeline}>
+        <Timeline
+          dataSource={{
+            sourceType: "profile",
+            screenName: "PEcAnProject"
+          }}
+          options={{
+            height: '400rem',
+            width: '50rem'
+          }}
+        />
+      </div>
       </div>
     </div>
   );
