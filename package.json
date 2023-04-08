@@ -14,11 +14,12 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.ff31de0ff",
-    "@docusaurus/preset-classic": "2.0.0-beta.ff31de0ff",
+    "@docusaurus/core": "^2.4.0",
+    "@docusaurus/preset-classic": "^2.4.0",
     "@mdx-js/react": "^1.6.21",
-    "@svgr/webpack": "^5.5.0",
+    "@svgr/webpack": "^7.0.0",
     "clsx": "^1.1.1",
+    "docusaurus-lunr-search": "^2.3.2",
     "file-loader": "^6.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
