@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[527],{1015:(e,t,n)=>{n.r(t),n.d(t,{default:()=>l});var r=n(7294),s=n(7780);const l=function(){return r.createElement(s.Z,{title:"news"},r.createElement("div",null,r.createElement("h2",{style:{textAlign:"center",margin:"0.5rem"}},"Workshops")))}}}]);

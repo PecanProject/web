@@ -83,7 +83,7 @@ module.exports = {
           items: [
             {
               label: "Google",
-              to: "/google",
+              to: "https://www.google.com/",
             },
             {
               label: "GitHub",
@@ -94,7 +94,7 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} PEcAn Project.`,
     },
-    hideableSidebar: true,
+    //hideableSidebar: true,
   },
   presets: [
     [
@@ -112,4 +112,5 @@ module.exports = {
       },
     ],
   ],
+  plugins: [require.resolve('docusaurus-lunr-search')],
 };
