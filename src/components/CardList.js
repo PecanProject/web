@@ -15,7 +15,13 @@ const PeopleCard = (props) => {
             </div>
           </div>
         </div>
-        <div className="card__image">
+        <div className="card__image"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+              >
           <img src={props.img} alt="Image alt text" title="Logo Title Text 1" />
         </div>
         <div
@@ -26,7 +32,7 @@ const PeopleCard = (props) => {
             alignItems: "center",
           }}
         >
-          <small className="avatar__subtitle">{props.education}</small>
+          <small className="avatar__subtitle">{props.profession}</small>
           <Link
             to="#"
             style={{
