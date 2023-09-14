@@ -68,6 +68,13 @@
   align-items: center;
   flex-direction: column;
 }
+.timeline {
+  margin: 5rem 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .imageContainer {
   display: flex;
   justify-content: space-between;

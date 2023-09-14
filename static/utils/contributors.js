@@ -78,8 +78,8 @@ const contributors = [
   },
   {
     name: "Tony Gardella",
-    email: "abc@xyz.com",
-    role: "PEcAn Co-PI",
+    email: "",
+    role: "",
     profession: "Project Manager, Boston University",
     img: "https://pecanproject.github.io/images/tonyg_pic.jpg",
   }
