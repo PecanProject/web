@@ -4,11 +4,18 @@
         <title>PEcAn Project Blog</title>
         <link>https://pecanproject.github.io/blog</link>
         <description>PEcAn Project Blog</description>
-        <lastBuildDate>Mon, 23 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 28 Aug 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[GSoC '21 Report- Webpage Updates]]></title>
+            <title><![CDATA[GSoC'23 Report - GitHub Actions]]></title>
+            <link>https://pecanproject.github.io/web/blog/rohan-gsoc-2023-report</link>
+            <guid>rohan-gsoc-2023-report</guid>
+            <pubDate>Mon, 28 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[What is Google Summer of Code?]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GSoC'21 Report- Webpage Updates]]></title>
             <link>https://pecanproject.github.io/web/blog/eshan-gsoc-2021-report</link>
             <guid>eshan-gsoc-2021-report</guid>
             <pubDate>Mon, 23 Aug 2021 00:00:00 GMT</pubDate>
