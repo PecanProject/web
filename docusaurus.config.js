@@ -45,12 +45,20 @@ module.exports = {
           href: "https://github.com/PecanProject",
           position: "right",
           className: "header-github-link",
-          "aria-label": "GitHub repository",
+          "aria-label": "GitHub repository",  
         },
         {
           href: "https://opensource.ncsa.illinois.edu/projects/artifacts.php?key=PECAN",
           label: "Download",
           position: "left",
+        },
+        {
+          label: "GSoC",
+          position: "left",
+          items: [
+            { to: "/gsoc", label: "Contributor Guidance" },
+            { to: "/gsoc_ideas", label: "Ideas List" }
+          ],
         },
       ],
     },
