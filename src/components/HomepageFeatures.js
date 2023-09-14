@@ -4,16 +4,28 @@ import nsf from "../../static/img/nsf.png";
 import nasa from "../../static/img/nasa-logo.png";
 import dep from "../../static/img/dep-energysvg.png";
 import energy from "../../static/img/energy-bio.png";
+import { Timeline } from "react-twitter-widgets";
 const FeatureList = [
   {
     title: "A state-of-the-art ecosystem model",
     Svg: require("../../static/img/nature.svg").default,
     description: (
       <>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex earum
-        corporis, ea molestias doloribus provident nemo necessitatibus eum non.
-        Quam debitis impedit non accusantium a molestias rem necessitatibus,
-        soluta fugit.
+        The Predictive Ecosystem Analyzer (PEcAn) is an integrated informatics toolbox for ecosystem modeling.
+         PEcAn consists of:
+
+         <dl>
+                                <dt><b>An application program interface (API):</b></dt>
+                                <dd>It encapsulates an ecosystem model, providing a common interface, inputs, and output.</dd>
+                                
+                                <dt><b>Web-based user interface</b></dt>
+                                <dd>An accessible web-based user interface and visualization tools</dd>
+                          
+                                <dt><b>Extensible collection of modules</b></dt>
+                                <dd>An extensible collection of modules to handle specific types of analyses , model-data syntheses , and data processing </dd>
+                            </dl>
+
+
       </>
     ),
   },
@@ -22,22 +34,7 @@ const FeatureList = [
     Svg: require("../../static/img/environment.svg").default,
     description: (
       <>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex earum
-        corporis, ea molestias doloribus provident nemo necessitatibus eum non.
-        Quam debitis impedit non accusantium a molestias rem necessitatibus,
-        soluta fugit.
-      </>
-    ),
-  },
-  {
-    title: "Made using best available models",
-    Svg: require("../../static/img/environmental_study.svg").default,
-    description: (
-      <>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex earum
-        corporis, ea molestias doloribus provident nemo necessitatibus eum non.
-        Quam debitis impedit non accusantium a molestias rem necessitatibus,
-        soluta fugit.
+        PEcAn is and will always be a <b>free</b> and <b>open source</b> software for the betterment of the scientific community and humanity.
       </>
     ),
   },
@@ -126,6 +123,18 @@ export default function HomepageFeatures() {
           <img src={dep} className={styles.image} />
           <img src={energy} className={styles.image} />
         </div>
+        <div className={styles.timeline}>
+        <Timeline
+          dataSource={{
+            sourceType: "profile",
+            screenName: "PEcAnProject"
+          }}
+          options={{
+            height: '400rem',
+            width: '50rem'
+          }}
+        />
+      </div>
       </div>
     </div>
   );
