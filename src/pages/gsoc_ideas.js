@@ -23,7 +23,7 @@ function Hello() {
                             <h2><a name="ideas">Project Ideas</a></h2>
 
                             Following is a list of project ideas, use this list to contact the appropriate mentors on slack. Feel free to propose your own ideas as well,
-                            in this case contact @kooper in slack so he can put you in contact with the best mentors.
+                            in this case contact @kooper on slack so he can put you in contact with the best mentors.
 
 
                             <hr />
@@ -75,10 +75,10 @@ function Hello() {
                                 <li>The current PEcAn input processing occurs mostly within the primary runtime workflow, but numerous PEcAn applications would benefit from the ability to update near real-time data asynchronously with model execution, handling different data streams in parallel. As part of this we’d also like to make it easier to use PEcAn input processing modules as stand alone tools. This subproject also leverages a joint effort with the Red Hat Collaboratory.</li>
                                 <li>Increase the number of input products supported. Students may focus on one or more of the following:
                                     <ol type="a">
-                                        <li>Add the NMME (seasonal weather forecast) as an meteorological drivers</li>
-                                        <li>Add remote sensing data streams: NASA GEDI (lidar), solar induced fluorescence (e.g., NASA OCO-2, OCO-3), thermal (e.g., NASA ECOSTRESS)
+                                        <li>Add the NMME seasonal weather forecast as an meteorological drivers</li>
+                                        <li>Add remote sensing data streams: NASA GEDI lidar, solar induced fluorescence e.g., NASA OCO-2, OCO-3, thermal e.g., NASA ECOSTRESS
                                         </li>
-                                        <li>Extend our existing support for ingesting data from the National Ecological Observatory Network (NEON) soil moisture and soil respiration data products. This will involve developing integrating NEONSoils code into PEcAn https://github.com/jmzobitz/NEONSoils and internal code from the Dietze lab on soil moisture gap-filling and downscaling.</li>
+                                        <li>Extend our existing support for ingesting data from the National Ecological Observatory Network NEON soil moisture and soil respiration data products. This will involve developing integrating <a href="https://github.com/jmzobitz/NEONSoils" target="_blank">NEONSoils code</a> into PEcAn  and internal code from the Dietze lab on soil moisture gap-filling and downscaling.</li>
                                     </ol>
                                 </li>
                             </ol>
@@ -132,10 +132,8 @@ function Hello() {
                                 <dt><b>Expected outcome:</b></dt>
                                 <dd>The aims here are:
                                     <ol>
-                                        <li>Resurrect a previously-developed R Shiny dashboard for our carbon cycle forecast system (pecan/shiny/ForecastingDashboard), potentially integrating in work done by the Ecological Forecasting Initiative on their dashboard (https://github.com/eco4cast/neon4cast-dashboard) and FMI’s Field Observatory (https://www.fieldobservatory.org/en/home/)
-                                        </li>
-                                        <li>Merge in the functionality from our data assimilation dashboard (pecan/shiny/SDAdashboard)
-                                        </li>
+                                        <li>Resurrect a previously-developed R Shiny dashboard for our <a href="https://github.com/PecanProject/pecan/tree/develop/shiny/ForecastingDashboard" target="_blank">carbon cycle forecast system </a>, potentially integrating in work done by the Ecological Forecasting Initiative on their <a href="https://github.com/eco4cast/neon4cast-dashboard" target="_blank">dashboard</a>  and <a href="https://www.fieldobservatory.org/en/home/" target="_blank">FMI’s Field Observatory</a></li>
+                                        <li>Merge in the functionality from our <a href="https://github.com/PecanProject/pecan/tree/develop/shiny/SDAdashboard" target="_blank" >data assimilation dashboard </a></li>
                                         <li>Resurrect the automated email alert system that sent a subset of visualizations, and links to the full app, to users for the sites they are interested in.</li>
                                     </ol></dd>
                                 <dt><b>Prerequisites:</b></dt>
