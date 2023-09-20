@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "@theme/Layout";
 import styles from "./about.module.css";
 import clsx from "clsx";
-function Hello() {
+function gsocIdeas() {
     return (
         <Layout title="About">
             <div className={styles.aboutContainer}>
@@ -158,7 +158,7 @@ function Hello() {
                             <dl>
                                 <dt><b>Expected outcome:</b></dt>
                                 <dd>The primary aims are to migrate content from the old website and then deploy the new PEcAn website,
-                                    as discribed in
+                                    as described in
                                     <a href="https://github.com/PecanProject/web/issues/11">pecanproject/web Issue 11</a>.
                                     Additional ideas may be proposed.</dd>
                                 <dt><b>Prerequisites:</b></dt>
@@ -183,4 +183,4 @@ function Hello() {
     );
 }
 
-export default Hello;
+export default gsocIdeas;
