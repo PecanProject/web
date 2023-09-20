@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "@theme/Layout";
 import styles from "./about.module.css";
 import clsx from "clsx";
-function Hello() {
+function gsoc() {
     return (
         <Layout title="About">
             <div className={styles.aboutContainer}>
@@ -22,13 +22,13 @@ function Hello() {
                             <p> </p>
                             &nbsp;
 
-                            <h2><a href="gsoc_ideas.html">Project Ideas</a></h2>
+                            <h2><a href="gsoc_ideas">Project Ideas</a></h2>
 
                             Ecosystem science has many components, so does PEcAn! Some Project ideas can be found here on our <a href="gsoc_ideas.html">project ideas list.</a>
 
                             <p>&nbsp;</p>
 
-                            <h2><a href="gsoc_apply.html">How to apply?</a></h2>
+                            <h2><a href="gsoc_apply">How to apply?</a></h2>
 
                             There are two steps to the application process:
 
@@ -97,4 +97,4 @@ function Hello() {
     );
 }
 
-export default Hello;
+export default gsoc;
