@@ -12,3 +12,18 @@
     
   }
   
+
+/* Media query for screens with a maximum width of 600px */
+@media (max-width: 600px) {
+  .news-container {
+      padding: 1rem; /* Adjust padding for smaller screens */
+      max-width: 100%; /* Make sure it doesn't exceed the viewport width */
+  }
+}
+
+/* Media query for screens with a maximum width of 1200px */
+@media (max-width: 1200px) {
+  .news-container {
+      max-width: 600px; /* Adjust max-width for medium-sized screens */
+  }
+}
