@@ -22,11 +22,18 @@ module.exports = {
           label: "Documentation",
           position: "left",
           items: [
-            { to: "/documentation/master", label: "Master" },
             {
-              to: "/documentation/develop",
-              label: "Develop",
+              to: "/documentation", label: "Documentation",
             },
+            {
+              to: "/documentation/master", label: "Package Documentation",
+            },
+            {
+              to: "/tutorials", label: "Tutorials",
+            },
+            {
+              to: "http://pecan.ncsa.illinois.edu/pecan/01-introduction.php", label: "Demo"
+            },            
           ],
         },
         { to: "/blog", label: "Blog", position: "left" },
@@ -87,12 +94,8 @@ module.exports = {
           ],
         },
         {
-          title: "More",
+          title: "Contribute to Code",
           items: [
-            {
-              label: "Google",
-              to: "/google",
-            },
             {
               label: "GitHub",
               href: "https://github.com/PecanProject",
