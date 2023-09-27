@@ -48,7 +48,7 @@
   padding: 10px;
 }
 .cardContainer {
-  max-width: 450px;
+  max-width: 650px;
   background-color: var(--ifm-color-emphasis-200);
   border-radius: 10px;
   padding: 2rem;
