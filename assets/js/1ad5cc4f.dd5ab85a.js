@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[836],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"GSoC\'23 Report - GitHub Actions","permalink":"/web/blog/rohan-gsoc-2023-report"},{"title":"GSoC\'21 Report- Webpage Updates","permalink":"/web/blog/eshan-gsoc-2021-report"}]}')}}]);
