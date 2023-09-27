@@ -44,7 +44,6 @@ module.exports = {
             { to: "/about", label: "About" },
             { to: "/people", label: "People" },
             { to: "/news", label: "News" },
-            { to: "/workshops", label: "Workshops" },
           ],
         },
         { to: "/publications", label: "Publications", position: "left" },
