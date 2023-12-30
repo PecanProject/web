@@ -10,7 +10,7 @@ const contributors = [
     name: "Dr. David LeBauer",
     email: "dlebauer@email.arizona.edu",
     role: "PEcAn Co-PI",
-    profession: "Director of Data Science, University of Arizona ",
+    profession: "Staff Scientist, Indigo Ag",
     img: "https://datascience.cct.arizona.edu/sites/datascience.cct.arizona.edu/files/styles/large/public/images/people/david_lebauer.jpg",
   },
   {
@@ -45,7 +45,7 @@ const contributors = [
     name: "Christopher Black",
     email: "chris@ckblack.org",
     role: "",
-    profession: "Postdoctoral scholar, Penn State Roots Lab",
+    profession: "Senior Scientist, Indigo Ag",
     img: "https://ckblack.org/2014/04/ckb-20140427-300px.jpg",
   },
   {
@@ -59,7 +59,7 @@ const contributors = [
     name: "Hamze Dokoohaki",
     email: "hamzed@illinois.edu",
     role: "",
-    profession: "Assistant Professor, National Center for Supercomputing Applications (NCSA)",
+    profession: "Staff Scientist, Indigo Ag",
     img: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=91lPlxQAAAAJ&citpid=7",
   },
   {
@@ -77,11 +77,18 @@ const contributors = [
     img: "https://people.bu.edu/dietze/images/04-elizabeth.jpg",
   },
   {
-    name: "Tony Gardella",
+    name: "Dongchen Zhang",
     email: "",
     role: "",
-    profession: "Project Manager, Boston University",
-    img: "https://pecanproject.github.io/images/tonyg_pic.jpg",
+    profession: "Graduate Student, Boston University",
+    img: "https://people.bu.edu/dietze/images/Dongchen.jpg",
+  },
+  {
+    name: "Qianyu Li",
+    email: "",
+    role: "",
+    profession: "Team Member, Brookhaven National Lab",
+    img: "https://www.bnl.gov/assets/global/images/render.php?q=0|26462.jpg|500",
   }
 
 ];
