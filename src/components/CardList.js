@@ -2,7 +2,6 @@ import React from "react";
 import clsx from "clsx";
 import { Link } from "react-router-dom";
 import contributors from "../../static/utils/contributors";
-import ProjectAlumni from "../../static/utils/projectAlumni"
 import styles from "./people.module.css";
 const PeopleCard = (props) => {
   return (
