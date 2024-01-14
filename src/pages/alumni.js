@@ -1,9 +1,9 @@
 import React from "react";
 import clsx from "clsx";
 import { Link } from "react-router-dom";
-import contributors from "../../static/utils/contributors";
-import ProjectAlumni from "../../static/utils/projectAlumni"
-import styles from "./people.module.css";
+import projectAlumni from "../../static/utils/projectAlumni";
+import styles from "../components/people.module.css";
+import Layout from "@theme/Layout";
 const PeopleCard = (props) => {
   return (
     <div className={clsx("card-demo", styles.card)}>
@@ -55,22 +55,20 @@ const PeopleCard = (props) => {
   );
 };
 
-const CardList = () => {
+const Alumni = () => {
   return (
-    <>
-      <h2 style={{ textAlign: "center",margin:'0.5rem' }}>People</h2>
-      <div className={styles.peopleContainer}>
-        {contributors.map((person, index) => {
-          return <PeopleCard key={index} {...person} />;
-        })}
+    <Layout title="people">
+      <div>
+        <h2 style={{ textAlign: "center", margin: "0.5rem" }}>
+          Project Alumni
+        </h2>
+        <div className={styles.peopleContainer}>
+          {projectAlumni.map((person, index) => {
+            return <PeopleCard key={index} {...person} />;
+          })}
+        </div>
       </div>
-      <h2 style={{ textAlign: "center",margin:'0.5rem' }}>Project Alumni</h2>
-      <div className={styles.peopleContainer}>
-        {ProjectAlumni.map((person, index) => {
-          return <PeopleCard key={index} {...person} />;
-        })}
-      </div>
-    </>
+    </Layout>
   );
 };
-export default CardList;
+export default Alumni;

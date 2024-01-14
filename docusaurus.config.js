@@ -43,6 +43,7 @@ module.exports = {
           items: [
             { to: "/about", label: "About" },
             { to: "/people", label: "People" },
+            { to: "/alumni", label: "Alumni" },
             { to: "/news", label: "News" },
           ],
         },

@@ -1,0 +1,73 @@
+const ProjectAlumni = [
+  {
+    name: "Rohan Sasne",
+    email: "rohansasne30@gmail.com",
+    role: "GSoC'23 Contributor",
+    profession: "Co-Founder and CEO, Dynalize Technologies",
+    img: "https://avatars.githubusercontent.com/u/110545952?v=4",
+  },
+  {
+    name: "Eshan Tripathi",
+    email: "eshan1285@gmail.com",
+    role: "GSoC'21 Contributor",
+    profession: "SWE, nference",
+    img: "https://media.licdn.com/dms/image/C4D03AQGjLgDfr6ZSnw/profile-displayphoto-shrink_400_400/0/1655714284018?e=1710979200&v=beta&t=j6VjR0cmo5KZ6oKIzlao1uM2yuzlIWD4xp48j8kaf8Y",
+  },
+  {
+    name: "Swarnalee Mazumder",
+    email: "mchenry@illinois.edu",
+    role: "GSoC'22 Contributor",
+    profession: "Research Scientist, Hamburg University of Applied Sciences",
+    img: "https://media.licdn.com/dms/image/D4E03AQFrBA9LNC2Tqw/profile-displayphoto-shrink_400_400/0/1667749637948?e=1710979200&v=beta&t=wVGonmFxR--Rox1c0eDTamOwolBLKemmnY1vGXRbX6Q",
+  },
+  {
+    name: "Nihar Sanda",
+    email: "nihar.sanda@gmail.com",
+    role: "GSoC'22 & GSoC'23 Contributor",
+    profession: "Research Associate, IIT Bombay",
+    img: "https://koolgax99.github.io/nihar.jpg",
+  },
+  {
+    name: "Akhil Jha",
+    email: "Akhilkumarjha9@gmail.com",
+    role: "GSoC'21 Contributor",
+    profession: "Analyst, Axtria",
+    img: "https://media.licdn.com/dms/image/D4D03AQHJxfOhxM2KIQ/profile-displayphoto-shrink_400_400/0/1676057106473?e=1710979200&v=beta&t=JxrH50AITlH0AwCgN2Jc1Gc3iMN2720PL2Lmu0Wc3a4",
+  },
+  {
+    name: "Sagar Utekar",
+    email: "sagarutekar2366@gmail.com",
+    role: "GSoC'22 Contributor",
+    profession: "Software Engineer, VMware",
+    img: "https://media.licdn.com/dms/image/C5103AQGTqDng-t0thw/profile-displayphoto-shrink_400_400/0/1571596031188?e=1710979200&v=beta&t=SLGtEVdTqqDzhISh9yR_DxqfmJjmT68JXYZ37nHigGY",
+  },
+  {
+    name: "Meet Agarwal",
+    email: "agrawalmeet91@gmail.com",
+    role: "GSoC'23 Contributor",
+    profession: "Software Engineer",
+    img: "https://media.licdn.com/dms/image/D5603AQHSrQDArs7eIA/profile-displayphoto-shrink_400_400/0/1683376655110?e=1710979200&v=beta&t=nlhJiPIObyxWX9umBSW7sCK3DWLastPhZrh9NRUWIKk",
+  },
+  {
+    name: "Shashank Singh",
+    email: "shashanksingh819@gmail.com",
+    role: "GSoC'21 Contributor",
+    profession: "Software Engineer",
+    img: "https://media.licdn.com/dms/image/D4D35AQH5GpWT-S1QKg/profile-framedphoto-shrink_400_400/0/1700731459128?e=1705820400&v=beta&t=MeRWOwvAtSfXdYW1WO6Db9gJ_0glExrvVvbb5HMEp7Q",
+  },
+  {
+    name: "Tanishq Jain",
+    email: "tanishqjain010@gmail.com",
+    role: "GSoC'22 Contributor",
+    profession: "Software Engineer, Bosch",
+    img: "https://avatars.githubusercontent.com/u/83662210?v=4",
+  },
+  {
+    name: "Ayush Prasad",
+    email: "ayush.prd@gmail.com",
+    role: "GSoC'21 Contributor",
+    profession: "Research Intern, Finnish Meteorological Institute",
+    img: "https://media.licdn.com/dms/image/D4D03AQFnJJhW-ZuiJQ/profile-displayphoto-shrink_400_400/0/1683218938148?e=1710979200&v=beta&t=4mFW_DuOSFjQ_vYB846GNj9oXxTsF5-VxIb1HuBTvOQ",
+  },
+];
+export default ProjectAlumni;

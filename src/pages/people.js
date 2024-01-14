@@ -5,7 +5,6 @@ function People() {
   return (
     <Layout title="people">
       <div>
-        <h2 style={{ textAlign: "center",margin:'0.5rem' }}>People</h2>
         <CardList />
       </div>
     </Layout>
