@@ -63,12 +63,6 @@ const CardList = () => {
           return <PeopleCard key={index} {...person} />;
         })}
       </div>
-      <h2 style={{ textAlign: "center",margin:'0.5rem' }}>Project Alumni</h2>
-      <div className={styles.peopleContainer}>
-        {ProjectAlumni.map((person, index) => {
-          return <PeopleCard key={index} {...person} />;
-        })}
-      </div>
     </>
   );
 };
