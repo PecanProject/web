@@ -1,11 +1,29 @@
 const contributors = [
   {
+    name: "	Dongchen Zhang",
+    email: "",
+    role: "",
+    profession: "	BU Earth & Environment PhD",
+    img: "https://people.bu.edu/dietze/images/Dongchen.jpg",
+  },
+
+  {
+    name: "Qianyu Li ",
+    email: "qli1@bnl.gov",
+    role: "",
+    profession: "Brookhaven National Laboratory",
+    img: "https://www.bnl.gov/assets/global/images/render.php?q=0|26462.jpg|500",
+  },
+  
+
+  {
     name: "Dr. Michael Dietze",
     email: "dietze@bu.edu",
     role: "PEcAn Lead PI",
     profession: "Professor, Boston University",
     img: "http://people.bu.edu/dietze/images/MikePalEON.jpg",
   },
+
   {
     name: "Dr. David LeBauer",
     email: "dlebauer@email.arizona.edu",
