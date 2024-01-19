@@ -3,10 +3,9 @@ const contributors = [
     name: "	Dongchen Zhang",
     email: "",
     role: "PhD Student",
-    profession: "	BU Earth & Environment PhD",
+    profession: "BU Earth & Environment PhD",
     img: "https://people.bu.edu/dietze/images/Dongchen.jpg",
   },
-
   {
     name: "Qianyu Li ",
     email: "qli1@bnl.gov",
@@ -14,8 +13,6 @@ const contributors = [
     profession: "Brookhaven National Laboratory",
     img: "https://www.bnl.gov/assets/global/images/render.php?q=0|26462.jpg|500",
   },
-  
-
   {
     name: "Dr. Michael Dietze",
     email: "dietze@bu.edu",
@@ -23,7 +20,6 @@ const contributors = [
     profession: "Professor, Boston University",
     img: "http://people.bu.edu/dietze/images/MikePalEON.jpg",
   },
-
   {
     name: "Dr. David LeBauer",
     email: "dlebauer@email.arizona.edu",
