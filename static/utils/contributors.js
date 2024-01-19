@@ -2,7 +2,7 @@ const contributors = [
   {
     name: "	Dongchen Zhang",
     email: "",
-    role: "",
+    role: "PhD Student",
     profession: "	BU Earth & Environment PhD",
     img: "https://people.bu.edu/dietze/images/Dongchen.jpg",
   },
@@ -10,7 +10,7 @@ const contributors = [
   {
     name: "Qianyu Li ",
     email: "qli1@bnl.gov",
-    role: "",
+    role: "Reserch Scientist",
     profession: "Brookhaven National Laboratory",
     img: "https://www.bnl.gov/assets/global/images/render.php?q=0|26462.jpg|500",
   },
