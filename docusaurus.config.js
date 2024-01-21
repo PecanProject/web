@@ -102,6 +102,23 @@ module.exports = {
             },
           ],
         },
+        {
+          title: "Past Contributors",
+          items: [
+            {
+              label: "PecanProject",
+              href: "https://github.com/PecanProject/pecan/graphs/contributors",
+            },
+            {
+              label: "PecanProject",
+              href: "https://github.com/PecanProject/pecan/graphs/contributors",
+            },
+            {
+              label: "PecanProject",
+              href: "https://github.com/PecanProject/pecan/graphs/contributors",
+            },
+          ],
+        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} PEcAn Project.`,
     },
