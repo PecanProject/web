@@ -11,21 +11,32 @@ const FeatureList = [
     Svg: require("../../static/img/nature.svg").default,
     description: (
       <>
-        The Predictive Ecosystem Analyzer (PEcAn) is an integrated informatics toolbox for ecosystem modeling.
-         PEcAn consists of:
+        The Predictive Ecosystem Analyzer (PEcAn) is an integrated informatics
+        toolbox for ecosystem modeling. PEcAn consists of:
+        <dl>
+          <dt>
+            <b>An application program interface (API):</b>
+          </dt>
+          <dd>
+            It encapsulates an ecosystem model, providing a common interface,
+            inputs, and output.
+          </dd>
 
-         <dl>
-                                <dt><b>An application program interface (API):</b></dt>
-                                <dd>It encapsulates an ecosystem model, providing a common interface, inputs, and output.</dd>
-                                
-                                <dt><b>Web-based user interface</b></dt>
-                                <dd>An accessible web-based user interface and visualization tools</dd>
-                          
-                                <dt><b>Extensible collection of modules</b></dt>
-                                <dd>An extensible collection of modules to handle specific types of analyses , model-data syntheses , and data processing </dd>
-                            </dl>
+          <dt>
+            <b>Web-based user interface</b>
+          </dt>
+          <dd>
+            An accessible web-based user interface and visualization tools
+          </dd>
 
-
+          <dt>
+            <b>Extensible collection of modules</b>
+          </dt>
+          <dd>
+            An extensible collection of modules to handle specific types of
+            analyses , model-data syntheses , and data processing{" "}
+          </dd>
+        </dl>
       </>
     ),
   },
@@ -34,7 +45,8 @@ const FeatureList = [
     Svg: require("../../static/img/environment.svg").default,
     description: (
       <>
-        PEcAn is and will always be a <b>free</b> and <b>open source</b> software for the betterment of the scientific community and humanity.
+        PEcAn is and will always be a <b>free</b> and <b>open source</b>{" "}
+        software for the betterment of the scientific community and humanity.
       </>
     ),
   },
@@ -124,17 +136,17 @@ export default function HomepageFeatures() {
           <img src={energy} className={styles.image} />
         </div>
         <div className={styles.timeline}>
-        <Timeline
-          dataSource={{
-            sourceType: "profile",
-            screenName: "PEcAnProject"
-          }}
-          options={{
-            height: '400rem',
-            width: '50rem'
-          }}
-        />
-      </div>
+          <Timeline
+            dataSource={{
+              sourceType: "profile",
+              screenName: "PEcAnProject",
+            }}
+            options={{
+              height: "400rem",
+              width: "50rem",
+            }}
+          />
+        </div>
       </div>
     </div>
   );

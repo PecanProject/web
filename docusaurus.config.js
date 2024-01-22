@@ -43,6 +43,7 @@ module.exports = {
           items: [
             { to: "/about", label: "About" },
             { to: "/people", label: "People" },
+            { to: "/alumni", label: "Alumni" },
             { to: "/news", label: "News" },
           ],
         },
@@ -98,6 +99,23 @@ module.exports = {
             {
               label: "GitHub",
               href: "https://github.com/PecanProject",
+            },
+          ],
+        },
+        {
+          title: "Past Contributors",
+          items: [
+            {
+              label: "PecanProject",
+              href: "https://github.com/PecanProject/pecan/graphs/contributors",
+            },
+            {
+              label: "Bety Database",
+              href: "https://github.com/PecanProject/bety/graphs/contributors",
+            },
+            {
+              label: "Pecan Website",
+              href: "https://github.com/PecanProject/web/graphs/contributors",
             },
           ],
         },

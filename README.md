@@ -146,10 +146,8 @@ Steps to add a blog post:
 1. Create a new file named `blog/yyyy-mm-dd-title.md`
 2. In the top of your blog file add a yaml header.
 3. Add at least `title`, `author` and `tags` yaml fields.
-
-- These metadata fields help with search and navigation on the site.
-- These and other yaml header options are described in the [blog header options](https://docusaurus.io/docs/blog#header-options) section of the Docusaurus documentation.
-
+   - These metadata fields help with search and navigation on the site.
+   - These and other yaml header options are described in the [blog header options](https://docusaurus.io/docs/blog#header-options) section of the Docusaurus documentation.
 4. writing your blog and save the file.
 5. any images can be put in `static/img/` and referenced using a relative path `static/img/myimage.png`
 6. build the website to make sure the blog shows up as expected
@@ -186,10 +184,10 @@ This section contains future plans for the website. New contributors can use thi
 
 ### Optimising Documentation
 
-At present the PEcAn's documentation is being served from (https://pecanproject.github.io/pecan-documentation/master/) using an iframe. While this saves a lot of overhead in converting Rmd files in (https://github.com/PecanProject/pecan/tree/develop/book_source) to md files so that docusaurus could render them, it also increases the loading time for documentation, it also looks less consistent.
+At present the PEcAn's documentation is being served from (<https://pecanproject.github.io/pecan-documentation/master/>) using an iframe. While this saves a lot of overhead in converting Rmd files in (<https://github.com/PecanProject/pecan/tree/develop/book_source>) to md files so that docusaurus could render them, it also increases the loading time for documentation, it also looks less consistent.
 In future, it is suggested to find an optimised way to convert rmd files to md and integrate them via docusaurus's native documentation parser.
 
 ### Adding tutorials section
 
 The tutorials section from old site need to be migrated into the new site.
-One can find tutorials here (https://github.com/PecanProject/pecan/tree/develop/documentation/tutorials).
+One can find tutorials here (<https://github.com/PecanProject/pecan/tree/develop/documentation/tutorials>).
