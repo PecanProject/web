@@ -14,12 +14,11 @@ function Develop() {
           style={{ border: "none" }}
           width="100%"
           height="100%"
-         
           id="iFrame1"
           // sandbox=""
         >
           <p>
-            <a href="/en-US/docs/Glossary">
+            <a href="/en-US/docs/Glossary" target="_blank">
               Fallback link for browsers that don't support iframes
             </a>
           </p>

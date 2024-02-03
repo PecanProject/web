@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
 import styles from "./HomepageFeatures.module.css";
-import nsf from "../../static/img/nsf.png";
-import nasa from "../../static/img/nasa-logo.png";
-import dep from "../../static/img/dep-energysvg.png";
 import energy from "../../static/img/energy-bio.png";
 import { Timeline } from "react-twitter-widgets";
 const FeatureList = [
@@ -130,10 +127,10 @@ export default function HomepageFeatures() {
       <div className={styles.foot}>
         <h1>Acknowledgements</h1>
         <div className={styles.imageContainer}>
-          <img src={nsf} className={styles.image} />
-          <img src={nasa} className={styles.image} />
-          <img src={dep} className={styles.image} />
-          <img src={energy} className={styles.image} />
+          <img src="https://res.cloudinary.com/dhwbs4kk2/image/upload/v1679548055/Pecan/nsf_qw8bgf.png" className={styles.image} />
+	  <img src="https://res.cloudinary.com/dhwbs4kk2/image/upload/v1679548054/Pecan/nasa-logo_ydmuym.png" className={styles.image} />
+	  <img src="https://res.cloudinary.com/dhwbs4kk2/image/upload/v1679548054/Pecan/dep-energysvg_pwuk6w.png" className={styles.image} />
+	  <img src={energy} className={styles.image} />
         </div>
         <div className={styles.timeline}>
           <Timeline

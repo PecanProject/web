@@ -56,10 +56,12 @@ html[data-theme="light"] .card {
   transition: all 0.5s ease-in;
 }
 html[data-theme="light"] .card:hover {
-  background: #cfcfcf;
+  box-shadow: 15px 15px 60px #bebebe, -15px -15px 60px #ffffff;
+  background-color: #ffffff;
 }
 html[data-theme="dark"] .card:hover {
   background: #1d1c1c;
+  box-shadow: 20px 20px 60px #0b0b0b, -20px -20px 60px #0f0f0f;
 }
 .mdx-page .row {
   display: flex;

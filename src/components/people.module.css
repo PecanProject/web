@@ -9,4 +9,9 @@
   margin: 2rem 4rem;
   max-width: 400px;
   flex: 1 1 auto;
+  border-radius: var(--ifm-card-border-radius);
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
 }
