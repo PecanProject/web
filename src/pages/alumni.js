@@ -56,19 +56,32 @@ const PeopleCard = (props) => {
 };
 
 const Alumni = () => {
+  // Splitting the projectAlumni array into two
+  const half = Math.ceil(projectAlumni.length / 2);
+  const firstHalf = projectAlumni.slice(0, half);
+  const secondHalf = projectAlumni.slice(half);
+
   return (
     <Layout title="people">
       <div>
         <h2 style={{ textAlign: "center", margin: "0.5rem" }}>
           Project Alumni
         </h2>
-        <div className={styles.peopleContainer}>
-          {projectAlumni.map((person, index) => {
-            return <PeopleCard key={index} {...person} />;
-          })}
+        <div className={styles.mainContainer}>
+          <div className={styles.column}>
+            {firstHalf.map((person, index) => (
+              <PeopleCard key={index} {...person} />
+            ))}
+          </div>
+          <div className={styles.column}>
+            {secondHalf.map((person, index) => (
+              <PeopleCard key={index} {...person} />
+            ))}
+          </div>
         </div>
       </div>
     </Layout>
   );
 };
+
 export default Alumni;
