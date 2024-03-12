@@ -23,7 +23,19 @@ const PeopleCard = (props) => {
             alignItems: "center",
           }}
         >
-          <img src={props.img} alt="Image alt text" title="Logo Title Text 1" />
+          <img
+            src={props.img}
+            className="cardImage"
+            alt="Image alt text"
+            title="Logo Title Text"
+            style={{
+              maxWidth: "250px",
+              maxHeight: "250px",
+              objectFit: "contain",
+              width: "100%",
+              height: "100%",
+            }}
+          />
         </div>
         <div
           className="card__footer"
