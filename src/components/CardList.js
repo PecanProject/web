@@ -23,7 +23,19 @@ const PeopleCard = (props) => {
             alignItems: "center",
           }}
         >
-          <img src={props.img} alt="Image alt text" title="Logo Title Text 1" />
+          <img
+            src={props.img}
+            className="cardImage"
+            alt="Image alt text"
+            title="Logo Title Text"
+            style={{
+              maxWidth: "250px",
+              maxHeight: "250px",
+              objectFit: "contain",
+              width: "100%",
+              height: "100%",
+            }}
+          />
         </div>
         <div
           className="card__footer"
@@ -55,15 +67,22 @@ const PeopleCard = (props) => {
 };
 
 const CardList = () => {
+  const half = Math.ceil(contributors.length / 2);
+  const firstHalf = contributors.slice(0, half);
+  const secondHalf = contributors.slice(half);
   return (
-    <>
-      <h2 style={{ textAlign: "center",margin:'0.5rem' }}>People</h2>
-      <div className={styles.peopleContainer}>
-        {contributors.map((person, index) => {
-          return <PeopleCard key={index} {...person} />;
-        })}
+    <div className={styles.mainContainer}>
+      <div className={styles.column}>
+        {firstHalf.map((person, index) => (
+          <PeopleCard key={index} {...person} />
+        ))}
       </div>
-    </>
+      <div className={styles.column}>
+        {secondHalf.map((person, index) => (
+          <PeopleCard key={index} {...person} />
+        ))}
+      </div>
+    </div>
   );
 };
 export default CardList;

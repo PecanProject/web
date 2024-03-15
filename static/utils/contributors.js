@@ -11,7 +11,7 @@ const contributors = [
     email: "dlebauer@email.arizona.edu",
     role: "PEcAn Co-PI",
     profession: "Staff Scientist, Indigo Ag",
-    img: "https://datascience.cct.arizona.edu/sites/datascience.cct.arizona.edu/files/styles/large/public/images/people/david_lebauer.jpg",
+    img: "https://datascience.cct.arizona.edu/sites/datascience.cct.arizona.edu/files/styles/az_medium/public/2023-11/david_lebauer.jpeg",
   },
   {
     name: "Dr. Kenton McHenry",

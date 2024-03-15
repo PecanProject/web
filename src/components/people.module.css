@@ -1,12 +1,34 @@
-.peopleContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem 0;
-}
 .card {
-  margin: 2rem 4rem;
+  margin: 2rem;
   max-width: 400px;
   flex: 1 1 auto;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0 5rem;
+  max-width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  margin: 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .mainContainer {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .column {
+    margin: 0;
+    width: 100%;
+  }
 }
