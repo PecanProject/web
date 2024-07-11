@@ -1,3 +1,14 @@
+
+---
+![Archived](https://img.shields.io/badge/status-archived-lightgrey)
+
+# Archived Repository Notice
+
+This repository has been archived and code has been merged into [pecanproject/pecanproject.github.io](https://github.com/pecanproject/pecanproject.github.io).
+
+---
+
+
 # PEcAn Project Website
 
 This repository contains the content of the PEcAn Project website.
